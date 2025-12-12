@@ -4,8 +4,8 @@ from urllib.parse import urlparse
 import google.generativeai as genai
 
 # API Keys
-VIRUSTOTAL_API_KEY = "6b7204aa7c42c4a81e11182f58ddd597a158c08e37076d89b36c43724f30719c"
-GEMINI_API_KEY = "AIzaSyAOKP6bWqU4_IT1QYjdZFHaOJNv3JBZdeg"
+VIRUSTOTAL_API_KEY = "your_actual_key_here"
+GEMINI_API_KEY = "your_actual_key_here"
 genai.configure(api_key=GEMINI_API_KEY)
 
 class VirusTotalScanner:
@@ -321,3 +321,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
