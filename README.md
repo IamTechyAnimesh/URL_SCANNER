@@ -46,7 +46,7 @@ You need 2 API keys (both FREE):
 
 3. **Run the scanner:**
    ```bash
-   python url_scanner_single.py
+   python url_scanner.py
    ```
 
 ## 📖 Usage
@@ -120,27 +120,16 @@ Confidence: High
 ============================================================
 ```
 
-## 🔧 File Structure
-
-```
-VirusTotal_URL scan/
-├── url_scanner_single.py   # Main scanner (use this!)
-├── README.md               # This file
-├── requirements.txt        # Dependencies
-├── scan_results.log        # Scan history (auto-generated)
-└── .env.example           # Example env file
-```
-
 ## ⚙️ Configuration
 
 ### API Keys Setup
 
-Edit `url_scanner_single.py` (lines 11-12):
+Edit `url_scanner.py` (lines 11-12):
 
 ```python
 # API Keys
-VIRUSTOTAL_API_KEY = "your_virustotal_key"
-GEMINI_API_KEY = "your_gemini_key"
+VIRUSTOTAL_API_KEY = "your_actual_key_here"
+GEMINI_API_KEY = "your_actual_key_here"
 ```
 
 ### Command Line Usage
@@ -211,4 +200,5 @@ Open source and free to use.
 **Need help?** Check your API keys are valid and have internet connection.
 
 Happy scanning! 🛡️
+
 
