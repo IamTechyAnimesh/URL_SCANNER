@@ -136,7 +136,7 @@ GEMINI_API_KEY = "your_actual_key_here"
 
 ```bash
 # Interactive mode
-python url_scanner_single.py
+python url_scanner.py
 
 # Quit anytime with: quit, exit, or q
 ```
@@ -200,5 +200,6 @@ Open source and free to use.
 **Need help?** Check your API keys are valid and have internet connection.
 
 Happy scanning! 🛡️
+
 
 
