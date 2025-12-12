@@ -25,7 +25,7 @@ You need 2 API keys (both FREE):
    - Get key at: https://www.virustotal.com/gui/my-apikey
 
 2. **Google Gemini API Key** (free)
-   - Visit: https://aistudio.google.com
+   - Visit: https://aistudio.google.com/api-keys
    - Click "Get API Key"
 
 ### Installation
@@ -211,3 +211,4 @@ Open source and free to use.
 **Need help?** Check your API keys are valid and have internet connection.
 
 Happy scanning! 🛡️
+
